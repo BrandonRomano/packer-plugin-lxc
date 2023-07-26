@@ -1,11 +1,11 @@
 Type: `lxc`
 Artifact BuilderId: `ustream.lxc`
 
-The `lxc` Packer builder builds containers for lxc1. The builder starts an LXC
+The `lxc` Packer builder builds containers for LXC. The builder starts an LXC
 container, runs provisioners within this container, then exports the container
 as a tar.gz of the root file system.
 
-The LXC builder requires a modern linux kernel and the `lxc` or `lxc1` package.
+The LXC builder requires a modern linux kernel and the `lxc` package.
 This builder does not work with LXD.
 
 ~> Note: to build Centos images on a Debian family host, you will need the

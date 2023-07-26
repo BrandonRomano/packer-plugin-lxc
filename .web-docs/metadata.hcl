@@ -2,7 +2,7 @@
 # https://github.com/hashicorp/integration-template#metadata-configuration
 integration {
   name = "LXC"
-  description = "TODO"
+  description = "The LXC plugin can be used with HashiCorp Packer to create OCI images with LXC."
   identifier = "packer/BrandonRomano/lxc"
   component {
     type = "builder"
